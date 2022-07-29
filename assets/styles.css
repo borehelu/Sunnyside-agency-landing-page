@@ -1,0 +1,299 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    line-height: 1.6;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    padding: 1.5rem;
+    height: 70vh;
+    background-image: url(/assets/images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+header .arrow-icon{
+    display: block;
+    margin: 4rem auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.nav-item {
+    padding: .5rem 1rem;
+}
+
+nav ul li a{
+    color: #fff;
+}
+
+header h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    font-weight: 900;
+}
+
+.nav-item:hover{
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, .2);
+
+}
+
+
+
+.info__container{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 0;
+}
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info--center{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.info--center h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.info--center p{
+    color:  hsl(232, 10%, 55%);
+    font-size: 1rem;
+
+}
+
+.info--center a{
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #111;
+    
+}
+
+.info--center a:hover{
+    border-bottom: 6px solid  hsl(51, 100%, 49%);
+}
+
+.info--center a.red:hover{
+    border-bottom: 6px solid  hsl(7, 99%, 70%);
+}
+
+.services{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 0;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.5rem;
+
+}
+
+.service h2{
+    font-family: 'Fraunces', serif;
+}
+
+.service p{
+    width: 40ch;
+    text-align: center;
+}
+
+.graphic-design{
+    background: url(/assets/images/desktop/image-graphic-design.jpg);
+    color: hsl(167, 40%, 24%);
+}
+
+.photography{
+    background: url(/assets/images/desktop/image-photography.jpg);
+    color: hsl(198, 62%, 26%);
+}
+
+.graphic-design, .photography{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.testimonials{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.testimonials h2{
+    font-family: 'Fraunces', serif;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: hsl(210, 4%, 67%);
+    font-size: 1.5rem;
+}
+
+.testimonial__list{
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.testimonial__avatar{
+    width: 70px;
+    width: 70px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial__avatar img{
+    border-radius: 50%;
+}
+
+.testimonial__text{
+    color:  hsl(232, 10%, 55%);
+    text-align: center;
+    width: 35ch;
+}
+
+.testimonial__client{
+    margin-top: 2rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.testimonial__role{
+    color: hsl(210, 4%, 67%);
+    font-size: 14px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer{
+    background-color: #90D4C5;
+    color: #2C7365;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.footer-nav{
+    display: flex;
+    column-gap: 2rem;
+    
+}
+
+.footer-nav a{
+    color: #2C7365;
+}
+
+.footer-nav a:hover{
+    color: #fff;
+}
+
+.socials{
+    margin-top: 1rem;
+    display: flex;
+    column-gap: 1rem;
+}
+
+
+
+
+/* 
+
+## Colors
+
+### Primary
+
+- Soft red: hsl(7, 99%, 70%)
+- Yellow: hsl(51, 100%, 49%)
+- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
+- Dark blue (photography text): hsl(198, 62%, 26%)
+- Dark moderate cyan (footer): hsl(168, 34%, 41%)
+
+### Neutral
+
+- Very dark desaturated blue: hsl(212, 27%, 19%)
+- Very dark grayish blue: hsl(213, 9%, 39%)
+- Dark grayish blue: hsl(232, 10%, 55%)
+- Grayish blue: hsl(210, 4%, 67%)
+- White: hsl(0, 0%, 100%)
+
+
+
+*/
