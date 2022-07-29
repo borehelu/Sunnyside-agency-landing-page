@@ -144,14 +144,14 @@ header h1{
 }
 
 .bg-transform{
-    background-image: url(assets/images/desktop/image-transform.jpg);
+    background-image: url(./images/desktop/image-transform.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .bg-standout{
-    background-image: url(assets/images/desktop/image-stand-out.jpg);
+    background-image: url(./images/desktop/image-stand-out.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -184,12 +184,12 @@ header h1{
 }
 
 .graphic-design{
-    background: url(assets/images/desktop/image-graphic-design.jpg);
+    background: url(./images/desktop/image-graphic-design.jpg);
     color: hsl(167, 40%, 24%);
 }
 
 .photography{
-    background: url(assets/images/desktop/image-photography.jpg);
+    background: url(./images/desktop/image-photography.jpg);
     color: hsl(198, 62%, 26%);
 }
 
